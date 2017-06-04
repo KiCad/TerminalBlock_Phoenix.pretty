@@ -1,2 +1,2 @@
 # TerminalBlocks_Phoenix
-Footprints for Phoenix terminal blocks
+Footprints for [Phoenix Contact](https://www.phoenixcontact.com) terminal blocks
