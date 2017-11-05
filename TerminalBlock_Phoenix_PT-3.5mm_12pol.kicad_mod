@@ -1,10 +1,13 @@
-(module TerminalBlock_Phoenix_PT-3.5mm_12pol (layer F.Cu) (tedit 59C8F4B3)
+(module TerminalBlock_Phoenix_PT-3.5mm_12pol (layer F.Cu) (tedit 59FF0755)
   (descr "12-way 3.5mm pitch terminal block, Phoenix PT series")
   (tags "")
   (fp_text reference REF** (at 19.25 -4.3) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value TerminalBlock_Phoenix_PT-3.5mm_12pol (at 19.25 6) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user %R (at 19.25 0) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -2 -3.3) (end -1.9 -3.3) (layer F.CrtYd) (width 0.05))
@@ -41,7 +44,7 @@
   (pad 10 thru_hole circle (at 31.5 0 180) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask))
   (pad 11 thru_hole circle (at 35 0 180) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask))
   (pad 12 thru_hole circle (at 38.5 0 180) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask))
-  (model Terminal_Blocks.3dshapes/TerminalBlock_Pheonix_PT-3.5mm_12pol.wrl
+  (model ${KISYS3DMOD}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_PT-3.5mm_12pol.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
